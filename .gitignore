@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments and local tooling
+.venv/
+venv/
+.idea/
+.vscode/
+.tmp/
+
+# MALLORN data (download separately from the official challenge)
+mallorn-dataset/
+
+# Generated intermediate files and model caches
+processed/
+*.parquet
+*.pkl
+*.joblib
+
+# Generated experiment outputs; keep the directory documentation
+result/**
+!result/README.md
+
+# Thesis PDF contains personal information and is not licensed with the code
+基于分数阶微分的核瞬变源光变曲线特征提取与分类研究.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
